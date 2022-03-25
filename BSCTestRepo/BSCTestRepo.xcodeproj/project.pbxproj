@@ -10,7 +10,6 @@
 		39687A6927ED981100C0ED34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39687A6827ED981100C0ED34 /* AppDelegate.swift */; };
 		39687A6B27ED981100C0ED34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39687A6A27ED981100C0ED34 /* SceneDelegate.swift */; };
 		39687A6D27ED981100C0ED34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39687A6C27ED981100C0ED34 /* ViewController.swift */; };
-		39687A7027ED981100C0ED34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39687A6E27ED981100C0ED34 /* Main.storyboard */; };
 		39687A7227ED981300C0ED34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39687A7127ED981300C0ED34 /* Assets.xcassets */; };
 		39687A7527ED981300C0ED34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39687A7327ED981300C0ED34 /* LaunchScreen.storyboard */; };
 		39687A8027ED981300C0ED34 /* BSCTestRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39687A7F27ED981300C0ED34 /* BSCTestRepoTests.swift */; };
@@ -40,7 +39,6 @@
 		39687A6827ED981100C0ED34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39687A6A27ED981100C0ED34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		39687A6C27ED981100C0ED34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39687A6F27ED981100C0ED34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39687A7127ED981300C0ED34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39687A7427ED981300C0ED34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39687A7627ED981300C0ED34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,11 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				39687A6827ED981100C0ED34 /* AppDelegate.swift */,
-				39687A6A27ED981100C0ED34 /* SceneDelegate.swift */,
-				39687A6C27ED981100C0ED34 /* ViewController.swift */,
-				39687A6E27ED981100C0ED34 /* Main.storyboard */,
-				39687A7127ED981300C0ED34 /* Assets.xcassets */,
-				39687A7327ED981300C0ED34 /* LaunchScreen.storyboard */,
+				39687A9827ED9A3800C0ED34 /* Resources */,
 				39687A7627ED981300C0ED34 /* Info.plist */,
 			);
 			path = BSCTestRepo;
@@ -125,6 +119,17 @@
 				39687A8B27ED981300C0ED34 /* BSCTestRepoUITestsLaunchTests.swift */,
 			);
 			path = BSCTestRepoUITests;
+			sourceTree = "<group>";
+		};
+		39687A9827ED9A3800C0ED34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39687A7327ED981300C0ED34 /* LaunchScreen.storyboard */,
+				39687A7127ED981300C0ED34 /* Assets.xcassets */,
+				39687A6C27ED981100C0ED34 /* ViewController.swift */,
+				39687A6A27ED981100C0ED34 /* SceneDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +238,6 @@
 			files = (
 				39687A7527ED981300C0ED34 /* LaunchScreen.storyboard in Resources */,
 				39687A7227ED981300C0ED34 /* Assets.xcassets in Resources */,
-				39687A7027ED981100C0ED34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		39687A6E27ED981100C0ED34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39687A6F27ED981100C0ED34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		39687A7327ED981300C0ED34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
