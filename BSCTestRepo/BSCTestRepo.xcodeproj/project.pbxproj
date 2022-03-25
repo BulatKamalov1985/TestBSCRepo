@@ -97,7 +97,7 @@
 		39687A6727ED981100C0ED34 /* BSCTestRepo */ = {
 			isa = PBXGroup;
 			children = (
-				39687A6827ED981100C0ED34 /* AppDelegate.swift */,
+				39687A6C27ED981100C0ED34 /* ViewController.swift */,
 				39687A9827ED9A3800C0ED34 /* Resources */,
 				39687A7627ED981300C0ED34 /* Info.plist */,
 			);
@@ -124,9 +124,9 @@
 		39687A9827ED9A3800C0ED34 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				39687A6827ED981100C0ED34 /* AppDelegate.swift */,
 				39687A7327ED981300C0ED34 /* LaunchScreen.storyboard */,
 				39687A7127ED981300C0ED34 /* Assets.xcassets */,
-				39687A6C27ED981100C0ED34 /* ViewController.swift */,
 				39687A6A27ED981100C0ED34 /* SceneDelegate.swift */,
 			);
 			path = Resources;
